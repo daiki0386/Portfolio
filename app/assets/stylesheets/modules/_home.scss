@@ -179,13 +179,12 @@
 }
 
 .middle-container {
-  height: 100vh;
   background: -moz-linear-gradient(top, #5D341A, #0F0B0A);
   background: -webkit-linear-gradient(top, #5D341A, #0F0B0A);
   background: linear-gradient(to bottom, #5D341A, #0F0B0A);
   &__inner {
     width: 80%;
-    height: 600px;
+    height: 2300px;
     margin: 0 auto;
     position: relative;
   }
@@ -197,6 +196,31 @@
     position: absolute;
     top: 100px;
     left: 80px;
+  }
+  &__photo2 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 700px;
+    background: image-url("beer-photo2.png");
+    background-size: cover;
+  }
+  &__photo3 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 1200px;
+    left: 730px;
+    background: image-url("beer-photo3.png");
+    background-size: cover;
+  }
+  &__photo4 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 1700px;
+    background: image-url("beer-photo4.png");
+    background-size: cover;
   }
   .photo1-text {
     position: absolute;
@@ -210,6 +234,67 @@
   }
   &__dis {
     font-size: 24px;
+    }
+  }
+  .photo2-text {
+    position: absolute;
+    color: #fff;
+    top: 740px;
+    left: 370px;
+    z-index: 1;
+    &__title {
+      font-size: 52px;
+      padding-bottom: 20px;
+    }
+    &__dis {
+      font-size: 22px;
+      color:#FFCC00;
+      letter-spacing: 0.2em;
+      padding-bottom: 20px;
+    }
+    &__dis2 {
+      padding-bottom: 10px;
+    }
+  }
+  .photo3-text {
+    position: absolute;
+    text-align: right;
+    color: #fff;
+    top: 1240px;
+    left: 260px;
+    z-index: 1;
+    &__title {
+      font-size: 52px;
+      padding-bottom: 20px;
+    }
+    &__dis {
+      font-size: 22px;
+      color:#FFCC00;
+      letter-spacing: 0.2em;
+      padding-bottom: 20px;
+    }
+    &__dis2 {
+      padding-bottom: 10px;
+    }
+  }
+  .photo4-text {
+    position: absolute;
+    color: #fff;
+    top: 1740px;
+    left: 370px;
+    z-index: 1;
+    &__title {
+      font-size: 52px;
+      padding-bottom: 20px;
+    }
+    &__dis {
+      font-size: 22px;
+      color:#FFCC00;
+      letter-spacing: 0.2em;
+      padding-bottom: 20px;
+    }
+    &__dis2 {
+      padding-bottom: 10px;
     }
   }
 }
